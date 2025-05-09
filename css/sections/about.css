@@ -52,7 +52,14 @@
   line-height: 23px;
   cursor: pointer;
 }
-.about-us__button img{
-    object-fit: contain;
-    margin-left: 32px;
+.about-us__button img {
+  object-fit: contain;
+  margin-left: 32px;
+}
+
+.about-us__content {
+  padding: 64px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
